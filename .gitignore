@@ -6,6 +6,11 @@ SciTLDR-Data/SciTLDR-*/ctrl-bin/
 SciTLDR-Data/SciTLDR-*/ctrl/
 SciTLDR-Data/SciTLDR-*/mapping/
 SciTLDR-Data/SciTLDR-*/stories/
+BioTLDR-Data/SciTLDR-*-bin/
+BioTLDR-Data/SciTLDR-*/ctrl-bin/
+BioTLDR-Data/SciTLDR-*/ctrl/
+BioTLDR-Data/SciTLDR-*/mapping/
+BioTLDR-Data/SciTLDR-*/stories/
 
 # Pycache
 __pycache__/
@@ -14,6 +19,9 @@ __pycache__/
 SciTLDR-Data/dict.txt
 SciTLDR-Data/encoder.json
 SciTLDR-Data/vocab.bpe
+BioTLDR-Data/dict.txt
+BioTLDR-Data/encoder.json
+BioTLDR-Data/vocab.bpe
 
 .idea/
 
