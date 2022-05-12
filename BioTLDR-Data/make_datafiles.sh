@@ -1,4 +1,6 @@
 #!/bin/bash
+python create_data_folders.py BioTLDR.csv
+
 python to_stories.py $TASK
 python make_datafiles.py --stories_dir $TASK/stories --urldir $TASK/mapping --finished_files_dir $TASK
 
