@@ -70,7 +70,7 @@ def _get_rouge(pred, data):
             gold_file = os.path.join(td, 'gold')
             with open(gold_file, 'w') as fh:
                 fh.write(gold_tldr.strip())
-            files2rouge.run(cand_file, gold_file, ignore_empty=True, saveto=log_file)
+            files2rouge.run(cand_file, gold_file, saveto=log_file)
             rouge_score = Path(log_file).read_text()
             rouge_score = filter_rouge(rouge_score)
             if max_curr_rouge < rouge_score['rouge-1']:
