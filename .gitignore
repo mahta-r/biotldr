@@ -14,3 +14,6 @@ __pycache__/
 SciTLDR-Data/dict.txt
 SciTLDR-Data/encoder.json
 SciTLDR-Data/vocab.bpe
+
+.idea/
+
