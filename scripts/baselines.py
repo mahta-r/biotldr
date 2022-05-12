@@ -15,7 +15,7 @@ if __name__ == '__main__':
                 lines = [line.strip() for line in file.readlines()]
                 test_set = [" ".join(line.split()[:500]) for line in lines]
 
-            output = summarizer(test_set[:2], max_length=40)
+            output = summarizer(test_set, max_length=40)
             generated_summaries = [tldr['summary_text'] for tldr in output]
 
             output_fname = model + '_' + data_subset.lower() + '_baseline.hypo'
